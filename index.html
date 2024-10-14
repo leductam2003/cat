@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an example website showing an image with a Twitter card.">
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Check out this amazing image!">
+    <meta name="twitter:description" content="Here is an example description for this image.">
+    <meta name="twitter:image" content="./cat.png">
+    <script>
+        // Twitter post intent URL
+        const twitterPostURL = "https://x.com/intent/post?text=I+%24posted.+Join+the+club+and+put+the+poster+up+too%21url%3D";
+
+        // Automatically redirect after page loads
+        window.onload = function() {
+            window.location.href = twitterPostURL;
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
